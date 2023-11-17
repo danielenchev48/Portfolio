@@ -1,0 +1,23 @@
+.principlesWrapper {
+    height: 500px;
+    padding: 80px 150px;
+
+    .principles {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        margin-top: 30px;
+
+        >* {
+            flex: 1 1 0px;
+        }
+    }
+}
+
+.headerTitle {
+    font-size: 50px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    border-bottom: dashed 1px;
+    display: inline-block;
+}

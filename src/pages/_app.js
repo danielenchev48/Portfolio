@@ -1,7 +1,7 @@
 import '../../assets/styles/global.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import '../../assets/styles/introSection.scss';
-import '../../assets/styles/technologies.scss';
+import '../../assets/styles/principles.scss';
 
 
 export default function App({ Component, props }) {
