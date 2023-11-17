@@ -1,18 +1,76 @@
 .introSection {
-    position: absolute;
-    font-size: 20px;
-    // width: 50px;
-    right: 50%;
-    top: 40px;
-    transform: translateX(50%);
+    position: relative;
+    overflow: auto;
 
     .myNameSection {
+        position: absolute;
+        top: 50px;
+        transform: translateX(50%);
+        right: 50%;
         display: flex;
+        align-items: center;
+
+        .logo {
+            height: 70px;
+            width: 100px;
+        }
 
         .myName {
             width: 50px;
             font-weight: bold;
             color: var(--main-brown);
+            line-height: 20px;
+        }
+    }
+
+    nav {
+        margin: 150px 10vw 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .aboutWrapper {
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+        width: 800px;
+        top: -50px;
+        color: var(--main-brown);
+
+        .title {
+            position: absolute;
+            font-size: 40px;
+            font-weight: bold;
+            width: 200px;
+            top: 40px;
+            margin: 0 auto;
+        }
+
+
+        .profile {
+            width: 500px;
+            height: 400px;
+            margin: 0 auto;
+
+        }
+
+        .info {
+            position: absolute;
+            font-size: 16px;
+            left: 77%;
+            bottom: 80px;
+            width: 25vw;
+        }
+    }
+
+    .linksWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        .icon {
+            height: 40px;
         }
     }
 }

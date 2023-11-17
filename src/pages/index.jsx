@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
-import Image from 'next/image';
-import fullLogo from '../../assets/images/fullLogo.png'
+import IntroSection from '../../components/mainPage/introSection/introSection';
+import Technologies from '../../components/mainPage/technologies/technologies';
 
 
 function Header({ title }) {
@@ -15,12 +15,8 @@ function MainPage() {
             <Head>
                 <title>Daniel's Portfolio</title>
             </Head>
-            <div className='introSection'>
-                <div className='myNameSection'>
-                    <Image src={fullLogo} width={140} height={100} alt="myLogo" />
-                    <p className='myName'>Daniel Enchev</p>
-                </div>
-            </div>
+            <IntroSection />
+            <Technologies />
         </>
     );
 }
