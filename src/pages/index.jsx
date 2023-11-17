@@ -5,6 +5,7 @@ import IntroSection from '../../components/mainPage/introSection/introSection';
 import Technologies from '../../components/mainPage/technologies/technologies';
 import Principles from '../../components/mainPage/principles/principles';
 import Skills from '../../components/mainPage/technologies/skills';
+import Projects from '../../components/mainPage/projects/projects';
 
 
 function Header({ title }) {
@@ -21,6 +22,7 @@ function MainPage() {
             <Technologies />
             <Principles />
             <Skills />
+            <Projects />
         </>
     );
 }

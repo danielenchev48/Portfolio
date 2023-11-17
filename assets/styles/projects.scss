@@ -1,0 +1,42 @@
+.projectsWrapper {
+
+    .headerTitle {
+        margin: 50px 150px;
+    }
+
+    .projects {
+        .pContainer {
+            display: flex;
+            align-items: center;
+
+            >div {
+                display: inline-block;
+            }
+
+            .thumbnail {
+                height: 500px;
+                background: skyblue;
+            }
+
+            .info {
+                // margin-left: 50px;
+                padding: 80px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                gap: 30px;
+
+                .logo {}
+
+                .categories {
+                    .category {
+                        display: inline-block;
+                    }
+                }
+
+                .link {}
+            }
+        }
+    }
+}
