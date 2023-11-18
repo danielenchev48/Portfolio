@@ -1,8 +1,8 @@
 
-export default function () {
+export default function Ethics() {
     return <>
-        <div className="principlesWrapper" id="principles">
-            <div className="headerTitle">Principles</div>
+        <div className="ethicsWrapper" id="ethics">
+            <div className="headerTitle">Ethics</div>
             <div className="principles">
                 <div className="section">
                     <h2>Responsive Design</h2>

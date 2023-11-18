@@ -7,8 +7,9 @@ export default function About() {
             <div className="information">
                 <div className="section">
                     <div className="header">Background</div>
-                    <p>Working with computers since youth and after completing the full course for Junior JavaScript Developer in Advance Academy
-                        and working in a group project for 4 months
+                    <p>Working with computers since youth and recently completed the full course for Junior JavaScript Developer
+                        in Advance Academy. Now after working in a group project for 4 months I have a solid foundation of the
+                        stages in developing websites and applications.
                     </p>
                 </div>
                 <div className="section">

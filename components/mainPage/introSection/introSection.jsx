@@ -16,8 +16,8 @@ export default function IntroSection() {
             <nav role='navigation' className='navWrapper'>
                 <Link href="mailto:dan.enchev@gmail.com"><span className='link pb-1'>EMAIL ME</span></Link>
                 <div className='navOthers'>
+                    <Link href={'#ethics'} className='link'>Ethics</Link>
                     <Link href={'#projects'} className='link'>Projects</Link>
-                    <Link href={'#principles'} className='link'>Principles</Link>
                     <Link href={'#about'} className='link'>About</Link>
                 </div>
             </nav>

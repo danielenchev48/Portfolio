@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import IntroSection from '../../components/mainPage/introSection/introSection';
 import Technologies from '../../components/mainPage/technologies/technologies';
-import Principles from '../../components/mainPage/principles/principles';
+import Ethics from '../../components/mainPage/ethics/ethics';
 import Skills from '../../components/mainPage/technologies/skills';
 import Projects from '../../components/mainPage/projects/projects';
 import Methods from '../../components/mainPage/technologies/methods';
@@ -19,7 +19,7 @@ function MainPage() {
             </Head>
             <IntroSection />
             <Technologies />
-            <Principles />
+            <Ethics />
             <Skills />
             <Projects />
             <Methods />
