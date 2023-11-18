@@ -1,13 +1,15 @@
 .aboutWrapper {
-    padding: 60px 150px;
+    padding: 60px 150px 0;
 
     .information {
         display: flex;
         justify-content: space-around;
+        padding: 50px 80px;
+        gap: 50px;
 
         .section {
+            flex: 1 1 0;
             // width: 80%;
-            padding: 20px;
 
             .header {
                 margin-bottom: 20px;
