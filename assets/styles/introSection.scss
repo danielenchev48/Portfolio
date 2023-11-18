@@ -11,7 +11,7 @@
         align-items: center;
 
         .logo {
-            height: 70px;
+            height: 60px;
             width: 100px;
         }
 
@@ -27,9 +27,17 @@
         margin: 150px 10vw 0;
         display: flex;
         justify-content: space-between;
+
+        .navOthers {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 5px;
+
+        }
     }
 
-    .aboutWrapper {
+    .about {
         display: flex;
         margin: 0 auto;
         position: relative;
@@ -72,6 +80,13 @@
         .icon {
             height: 40px;
         }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 5px;
+        }
     }
 }
 
@@ -84,4 +99,13 @@
     padding: 20px 0;
     border-top: solid 2px var(--main-brown);
     border-bottom: solid 2px var(--main-brown);
+}
+
+.link {
+    border-bottom: dashed 1px;
+    display: inline-block;
+
+    &:hover {
+        border-bottom: solid 1px;
+    }
 }

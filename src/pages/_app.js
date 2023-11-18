@@ -3,6 +3,7 @@ import '../../assets/styles/global.css';
 import '../../assets/styles/introSection.scss';
 import '../../assets/styles/principles.scss';
 import '../../assets/styles/projects.scss';
+import '../../assets/styles/about.scss';
 
 
 export default function App({ Component, props }) {

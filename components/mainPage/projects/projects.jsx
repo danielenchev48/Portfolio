@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Projects() {
     return <>
-        <div className="projectsWrapper">
+        <div className="projectsWrapper" id="projects">
             <div className="headerTitle">Header</div>
             <div className="projects">
                 <div className="pContainer">

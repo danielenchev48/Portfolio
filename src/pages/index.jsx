@@ -7,11 +7,9 @@ import Principles from '../../components/mainPage/principles/principles';
 import Skills from '../../components/mainPage/technologies/skills';
 import Projects from '../../components/mainPage/projects/projects';
 import Methods from '../../components/mainPage/technologies/methods';
+import About from '../../components/mainPage/about/about';
 
 
-function Header({ title }) {
-    return <h1>{title ? title : 'Default title'}</h1>;
-}
 
 function MainPage() {
     return (
@@ -25,6 +23,7 @@ function MainPage() {
             <Skills />
             <Projects />
             <Methods />
+            <About />
         </>
     );
 }

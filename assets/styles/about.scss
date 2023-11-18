@@ -1,0 +1,20 @@
+.aboutWrapper {
+    padding: 60px 150px;
+
+    .information {
+        display: flex;
+        justify-content: space-around;
+
+        .section {
+            // width: 80%;
+            padding: 20px;
+
+            .header {
+                margin-bottom: 20px;
+                font-size: 30px;
+                font-weight: bold;
+            }
+
+        }
+    }
+}

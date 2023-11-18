@@ -1,7 +1,7 @@
 
 export default function () {
     return <>
-        <div className="principlesWrapper">
+        <div className="principlesWrapper" id="principles">
             <div className="headerTitle">Principles</div>
             <div className="principles">
                 <div>
