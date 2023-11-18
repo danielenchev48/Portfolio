@@ -6,6 +6,7 @@ import Technologies from '../../components/mainPage/technologies/technologies';
 import Principles from '../../components/mainPage/principles/principles';
 import Skills from '../../components/mainPage/technologies/skills';
 import Projects from '../../components/mainPage/projects/projects';
+import Methods from '../../components/mainPage/technologies/methods';
 
 
 function Header({ title }) {
@@ -23,6 +24,7 @@ function MainPage() {
             <Principles />
             <Skills />
             <Projects />
+            <Methods />
         </>
     );
 }

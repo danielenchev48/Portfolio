@@ -8,7 +8,6 @@ export default function Technologies() {
                 <div>Bootstrap</div>
                 <div>NodeJS</div>
                 <div>Next.js</div>
-                <div>RWD Design</div>
             </div>
         </>
     )
