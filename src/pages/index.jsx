@@ -8,6 +8,8 @@ import Skills from '../../components/mainPage/technologies/skills';
 import Projects from '../../components/mainPage/projects/projects';
 import Methods from '../../components/mainPage/technologies/methods';
 import About from '../../components/mainPage/about/about';
+import Apps from '../../components/mainPage/technologies/apps';
+import Certificates from '../../components/mainPage/certificates/certificates';
 
 
 
@@ -24,6 +26,8 @@ function MainPage() {
             <Projects />
             <Methods />
             <About />
+            <Apps />
+            <Certificates />
         </>
     );
 }

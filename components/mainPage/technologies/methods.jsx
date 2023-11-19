@@ -3,7 +3,7 @@ export default function Methods() {
         <>
             <div className='technologies'>
                 <div>RWD Design</div>
-                <div>OOP</div>
+                <div>Object-oriented programming (OOP)</div>
                 <div>Agile</div>
                 <div>UI/UX</div>
                 <div>Clean Code</div>

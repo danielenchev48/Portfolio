@@ -1,0 +1,51 @@
+.certWrapper {
+    padding: 80px 150px;
+
+    .headerTitle {}
+
+    .preview {
+        height: 800px;
+        // background-color: skyblue;
+
+        img {
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .certList {
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        margin: 50px;
+        // background-color: white;
+
+        .certificate {
+            width: 150px;
+            background-color: red;
+            position: relative;
+            // border: solid;
+            text-align: center;
+
+            img {
+                height: 100%;
+            }
+
+            .desc {
+                margin-top: 10px;
+                font-size: 20px;
+                line-height: 22px;
+
+                span {
+                    font-size: 15px;
+                }
+            }
+
+            .year {
+                font-style: italic;
+            }
+        }
+
+    }
+}
