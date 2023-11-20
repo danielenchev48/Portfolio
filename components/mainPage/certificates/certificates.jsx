@@ -22,17 +22,17 @@ export default function Certificates() {
             </div>
             <div className="certList">
                 <div className="certificate">
-                    <Image src={bootcamp} onMouseEnter={() => updatePreview(bootcamp)} />
+                    <Image fetchPriority={true} src={bootcamp} onMouseEnter={() => updatePreview(bootcamp)} />
                     <div className="desc"> JavaScript Development <span>Bootcamp</span></div>
                     <div className="year">2023</div>
                 </div>
                 <div className="certificate">
-                    <Image src={jsDev} onMouseEnter={() => updatePreview(jsDevFull)} />
+                    <Image fetchPriority={true} src={jsDev} onMouseEnter={() => updatePreview(jsDevFull)} />
                     <div className="desc"> JavaScript Development</div>
                     <div className="year">2022-2023</div>
                 </div>
                 <div className="certificate">
-                    <Image src={mon} onMouseEnter={() => updatePreview(monFull)} />
+                    <Image fetchPriority={true} src={mon} onMouseEnter={() => updatePreview(monFull)} />
                     <div className="desc"> Professional Education</div>
                     <div className="year">2022-2023</div>
                 </div>
