@@ -15,10 +15,10 @@ export default function Projects() {
             <div className="headerTitle">Projects</div>
             <div className="projects">
                 <div className="pContainer">
-                    <div className="thumbnail col-6">
+                    <div className="thumbnail col-lg-6 col-sm-12">
                         <Image src={elixir} />
                     </div>
-                    <div className="info col-6">
+                    <div className="info col-lg-6 col-sm-12 ">
                         <Image src={elixirLogo} className="logo" />
                         <div className="categories">
                             <div className="category"><FontAwesomeIcon icon={faUtensils} />Takeout</div>
@@ -29,7 +29,7 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="pContainer">
-                    <div className="info col-6">
+                    <div className="info col-lg-6 col-sm-12">
                         <Image src={gamingLogo} className="logo" />
                         <div className="categories">
                             <div className="category"><FontAwesomeIcon icon={faGamepad} />Gaming</div>
@@ -38,15 +38,15 @@ export default function Projects() {
                         <div className="desc">My first project, gaming website with news modals, top rated genres and a shopping page. Will be improved in the future.</div>
                         <Link href={'https://danielenchev48.github.io/Gaming-Tech-Inc/home.html'} className="link">GamingTech</Link>
                     </div>
-                    <div className="thumbnail col-6">
+                    <div className="thumbnail col-lg-6 col-sm-12">
                         <Image src={gaming} />
                     </div>
                 </div>
                 <div className="pContainer">
-                    <div className="thumbnail col-6">
+                    <div className="thumbnail col-lg-6 col-sm-12">
                         <Image src={blueasy} />
                     </div>
-                    <div className="info col-6">
+                    <div className="info col-lg-6 col-sm-12">
                         <Image src={blueasyLogo} className="logo" />
                         <div className="categories">
                             <div className="category"><FontAwesomeIcon icon={faPen} />Practice</div>

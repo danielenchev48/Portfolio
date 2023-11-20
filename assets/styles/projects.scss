@@ -2,12 +2,27 @@
 
     .headerTitle {
         margin: 50px 150px;
+
+        @media screen and (max-width:992px) {
+            margin: 50px 30px;
+        }
     }
 
     .projects {
+        @media screen and (max-width:992px) {
+            display: flex;
+            flex-direction: column;
+            gap: 80px;
+        }
+
         .pContainer {
             display: flex;
             align-items: center;
+
+            @media screen and (max-width:992px) {
+                flex-direction: column;
+                gap: 40px;
+            }
 
             >div {
                 display: inline-block;
@@ -18,15 +33,17 @@
                 background: skyblue;
                 overflow: hidden;
 
+                @media screen and (max-width:992px) {
+                    height: 400px;
+                }
+
                 img {
                     height: 100%;
-                    // width: 500px;
                     object-fit: cover;
                 }
             }
 
             .info {
-                // margin-left: 50px;
                 padding: 80px;
                 display: flex;
                 flex-direction: column;
@@ -34,10 +51,18 @@
                 text-align: center;
                 gap: 40px;
 
+                @media screen and (max-width:992px) {
+                    padding: 0 20px;
+                }
+
                 .logo {
                     max-height: 80px;
                     max-width: 280px;
                     margin-bottom: 50px;
+
+                    @media screen and (max-width:992px) {
+                        margin-bottom: 0;
+                    }
                 }
 
                 .categories {
@@ -45,20 +70,19 @@
                     gap: 100px;
                     font-size: 24px;
 
+                    @media screen and (max-width:992px) {
+                        gap: 40px;
+                        flex-wrap: wrap;
+                    }
 
                     .category {
                         display: flex;
                         align-items: center;
+                        justify-content: center;
                         gap: 20px;
                         flex: 1 1 0px;
                     }
                 }
-
-                .desc {
-                    // font-size: 16px;
-                }
-
-                .link {}
             }
         }
     }

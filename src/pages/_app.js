@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import '../../assets/styles/global.css';
+import '../../assets/styles/global.scss';
 import '../../assets/styles/introSection.scss';
 import '../../assets/styles/ethics.scss';
 import '../../assets/styles/projects.scss';
