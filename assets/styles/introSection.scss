@@ -11,7 +11,7 @@
         align-items: center;
 
         .logo {
-            height: 60px;
+            height: 55px;
             width: 100px;
         }
 
@@ -23,7 +23,7 @@
     }
 
     nav {
-        margin: 150px 10vw 0;
+        margin: 130px 10vw 0;
         display: flex;
         justify-content: space-between;
 
@@ -40,8 +40,8 @@
         display: flex;
         margin: 0 auto;
         position: relative;
-        width: 800px;
-        top: -50px;
+        width: 900px;
+        top: -100px;
         color: var(--main-brown);
 
         .title {
@@ -55,8 +55,8 @@
 
 
         .profile {
-            width: 500px;
-            height: 400px;
+            width: 700px;
+            height: 550px;
             margin: 0 auto;
 
         }
@@ -64,7 +64,7 @@
         .info {
             position: absolute;
             font-size: 16px;
-            left: 77%;
+            left: 85%;
             // bottom: 80px;
             top: 60%;
             width: 25vw;

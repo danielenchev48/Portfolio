@@ -19,6 +19,7 @@ export default function IntroSection() {
                     <Link href={'#ethics'} className='link'>Ethics</Link>
                     <Link href={'#projects'} className='link'>Projects</Link>
                     <Link href={'#about'} className='link'>About</Link>
+                    <Link href={'#certificates'} className='link'>Certificates</Link>
                 </div>
             </nav>
             <div className='about'>

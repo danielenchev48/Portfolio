@@ -1,11 +1,9 @@
 .certWrapper {
     padding: 80px 150px;
 
-    .headerTitle {}
-
     .preview {
+        margin-top: 50px;
         height: 800px;
-        // background-color: skyblue;
 
         img {
             height: 100%;
@@ -19,13 +17,10 @@
         justify-content: center;
         gap: 100px;
         margin: 50px;
-        // background-color: white;
 
         .certificate {
             width: 150px;
-            background-color: red;
             position: relative;
-            // border: solid;
             text-align: center;
 
             img {
@@ -46,6 +41,5 @@
                 font-style: italic;
             }
         }
-
     }
 }

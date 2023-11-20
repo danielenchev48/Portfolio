@@ -1,7 +1,9 @@
 import Image from "next/image";
 import bootcamp from '../../../assets/images/certificates/bootcamp.png'
 import jsDev from '../../../assets/images/certificates/jsDev.png'
+import jsDevFull from '../../../assets/images/certificates/jsDevFull.png'
 import mon from '../../../assets/images/certificates/mon.png'
+import monFull from '../../../assets/images/certificates/monFull.png'
 import { useState } from "react";
 
 
@@ -13,7 +15,7 @@ export default function Certificates() {
     }
 
     return <>
-        <div className="certWrapper">
+        <div className="certWrapper" id="certificates">
             <div className="headerTitle">Certificates</div>
             <div className="preview">
                 <Image src={preview} />
@@ -25,15 +27,14 @@ export default function Certificates() {
                     <div className="year">2023</div>
                 </div>
                 <div className="certificate">
-                    <Image src={jsDev} onMouseEnter={() => updatePreview(jsDev)} />
+                    <Image src={jsDev} onMouseEnter={() => updatePreview(jsDevFull)} />
                     <div className="desc"> JavaScript Development</div>
                     <div className="year">2022-2023</div>
                 </div>
                 <div className="certificate">
-                    <Image src={mon} onMouseEnter={() => updatePreview(mon)} />
+                    <Image src={mon} onMouseEnter={() => updatePreview(monFull)} />
                     <div className="desc"> Professional Education</div>
                     <div className="year">2022-2023</div>
-
                 </div>
             </div>
         </div>
