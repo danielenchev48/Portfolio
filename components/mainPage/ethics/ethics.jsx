@@ -9,7 +9,7 @@ export default function Ethics() {
                 <div className="section">
                     <h2><FontAwesomeIcon icon={faWindowRestore} className="me-2" /> Responsive Design</h2>
                     <p>Today a website can be opened from a majority of different devices so
-                        responsiveness is importand part of developing an accessible application for everyone.</p>
+                        responsiveness is important part of developing an accessible application for everyone.</p>
                 </div>
                 <div className="section">
                     <h2><FontAwesomeIcon icon={faFileCode} className="me-2" /> Clean Code</h2>
