@@ -3,6 +3,7 @@ export default function Technologies() {
         <>
             <div className='technologies'>
                 <div>ReactJS</div>
+                <div>Vue.js</div>
                 <div>JavaScript/TypeScript</div>
                 <div>CSS/SASS</div>
                 <div>Bootstrap</div>
