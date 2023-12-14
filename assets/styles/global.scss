@@ -70,3 +70,16 @@ img {
     font-family: inter;
     src: url(../fonts/inter-variablefont_slntwght-webfont.woff);
 }
+
+.splide__pagination {
+    position: relative;
+    bottom: -15px;
+
+    .splide__pagination__page {
+        background: rgb(105, 105, 105);
+
+        &.is-active {
+            background: black;
+        }
+    }
+}
