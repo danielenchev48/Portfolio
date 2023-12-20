@@ -24,11 +24,11 @@ export default function IntroSection() {
             </nav>
             <div className='about'>
                 <div className='title'>
-                    FrontEnd Developer
+                    Front-end <span>Developer</span>
                 </div>
                 <Image src={profile} className='profile' />
                 <div className='info'>
-                    Im Daniel, a FrontEnd developer based in Bulgaria. I build responsive
+                    I'm Daniel, a Front-End developer based in Bulgaria. I build responsive
                     websites using the latest technologies and always strive to learn more.
                 </div>
             </div>

@@ -12,13 +12,30 @@ import blueasy from '../../../assets/images/blueasy.jpg'
 import shiftLogo from '../../../assets/images/logo_shift.png'
 import shift from '../../../assets/images/shift.jpg'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
+import { Grid } from '@splidejs/splide-extension-grid';
+
+const options = {
+    grid: {
+        rows: 2,
+        cols: 1,
+    },
+
+    breakpoints: {
+        992: {
+            grid: {
+                rows: 1,
+                cols: 1,
+            },
+        },
+    }
+}
 
 export default function Projects() {
     return <>
         <div className="projectsWrapper" id="projects">
             <div className="headerTitle">Projects</div>
             <div className="projects">
-                <Splide aria-label="My Favorite Images">
+                <Splide aria-label="My Favorite Images" options={options} extensions={{ Grid }}>
                     <SplideSlide>
                         <div className="pContainer">
                             <div className="thumbnail col-lg-6 col-sm-12">
@@ -34,7 +51,12 @@ export default function Projects() {
                                 <Link href={'https://danielenchev48.github.io/ElixirRestaurant/'} className="link">Elixir</Link>
                             </div>
                         </div>
+                    </SplideSlide>
+                    <SplideSlide>
                         <div className="pContainer">
+                            <div className="thumbnail col-lg-6 col-sm-12">
+                                <Image src={shift} />
+                            </div>
                             <div className="info col-lg-6 col-sm-12">
                                 <Image src={shiftLogo} className="logo" />
                                 <div className="categories">
@@ -44,13 +66,13 @@ export default function Projects() {
                                 <div className="desc">Authoritative source for racing news, providing the latest updates, insightful analysis, and a vibrant community dedicated to the world of motorsports.</div>
                                 <Link href={'https://danielenchev48.github.io/Shift'} className="link">Shift</Link>
                             </div>
-                            <div className="thumbnail col-lg-6 col-sm-12">
-                                <Image src={shift} />
-                            </div>
                         </div>
                     </SplideSlide>
                     <SplideSlide>
                         <div className="pContainer">
+                            <div className="thumbnail col-lg-6 col-sm-12">
+                                <Image src={gaming} />
+                            </div>
                             <div className="info col-lg-6 col-sm-12">
                                 <Image src={gamingLogo} className="logo" />
                                 <div className="categories">
@@ -60,10 +82,9 @@ export default function Projects() {
                                 <div className="desc">My first project, gaming website with news modals, top rated genres and a shopping page. Will be improved in the future.</div>
                                 <Link href={'https://danielenchev48.github.io/Gaming-Tech-Inc/home.html'} className="link">GamingTech</Link>
                             </div>
-                            <div className="thumbnail col-lg-6 col-sm-12">
-                                <Image src={gaming} />
-                            </div>
                         </div>
+                    </SplideSlide>
+                    <SplideSlide>
                         <div className="pContainer">
                             <div className="thumbnail col-lg-6 col-sm-12">
                                 <Image src={blueasy} />
@@ -80,6 +101,6 @@ export default function Projects() {
                     </SplideSlide>
                 </Splide>
             </div>
-        </div>
+        </div >
     </>
 }

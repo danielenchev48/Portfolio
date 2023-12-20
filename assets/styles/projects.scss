@@ -8,6 +8,13 @@
         }
     }
 
+    .splide__slide__row:nth-child(even) {
+        .pContainer {
+            flex-direction: row-reverse;
+        }
+    }
+
+
     .projects {
         @media screen and (max-width:992px) {
             display: flex;
@@ -24,13 +31,14 @@
                 gap: 40px;
             }
 
+
+
             >div {
                 display: inline-block;
             }
 
             .thumbnail {
                 height: 800px;
-                background: skyblue;
                 overflow: hidden;
 
                 @media screen and (max-width:992px) {
